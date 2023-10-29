@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #727272;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Высота контейнера равна высоте видимой области (viewport height) */
+    flex-direction: column; /* Выравнивание элементов по вертикали */
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    background: #a1a1a1;
+    color: #0f0f0f;
+    padding: 20px;
+    width: 100%; /* Ширина блока равна 100% */
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    background: #faf3ce;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column; /* Расположение блоков в столбце */
+    align-items: center; /* Выравнивание по центру */
+    background: #f1dca0;
+    padding: 0px;
+    margin: 0;
+}
+
+.sidebar {
+    background: #cbeecb;
+    padding: 10%;
+    margin-left: auto;
+    height: auto;
+}
+
+.footer {
+    background: #a1a1a1;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Горизонтальное выравнивание блоков */
+    margin: 0;
+}
+
+.footer-section {
+    background: #f1f1f1;
+    padding: 10px;
+    flex: 1; /* Равномерное распределение пространства между блоками */
+    margin: 0 10px; /* Отступы между блоками */
+}
+
